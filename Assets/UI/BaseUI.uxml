@@ -6,11 +6,11 @@
             <ui:Label text="0" display-tooltip-when-elided="true" name="LbEntitiesVar" class="label labelVariable" />
         </ui:VisualElement>
         <ui:VisualElement name="Footer" style="flex-basis: 15%; align-items: center; justify-content: center; flex-direction: row; flex-wrap: nowrap; background-color: rgb(255, 255, 255);">
-            <ui:VisualElement name="ButtonGroup" style="flex-direction: row; margin-right: 32px; background-color: rgba(233, 233, 233, 255); border-top-left-radius: 18px; border-bottom-left-radius: 18px; border-top-right-radius: 18px; border-bottom-right-radius: 18px;">
+            <ui:VisualElement name="ButtonGroup" style="flex-direction: row; margin-right: 32px; background-color: rgb(233, 233, 233); border-top-left-radius: 18px; border-bottom-left-radius: 18px; border-top-right-radius: 18px; border-bottom-right-radius: 18px;">
                 <ui:Button text="1X SPEED" display-tooltip-when-elided="true" name="BtnToggle" class="button" style="width: 120px; margin-right: 0;" />
                 <ui:Button text="NEXT WAVE" display-tooltip-when-elided="true" name="BtnStartWave" class="button" style="width: 144px;" />
             </ui:VisualElement>
-            <ui:VisualElement class="towerThumbnail" style="background-image: resource(&apos;TH_Autocannon&apos;);" />
+            <ui:VisualElement name="THAutocannon" class="towerThumbnail" style="background-image: resource(&apos;TH_Autocannon&apos;);" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
